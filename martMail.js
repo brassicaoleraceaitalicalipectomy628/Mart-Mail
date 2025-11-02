@@ -68,9 +68,12 @@ async function martMail() {
             const communicationSections = Array.from(communicationDOM.window.document.querySelector('.text-formatted').children).flatMap(communicationSection => Array.from(communicationSection.innerHTML.split('<br><br>')).map(sectionHTML => {
                 const section = new JSDOM(`<!DOCTYPE html>${sectionHTML}`).window.document;
                 var content = '';
-                switch (sectionHTML.split('<')[1] ? sectionHTML.split('<')[1].split('>')[0] : false) {
-                    case 'li':
+                switch (communicationSection.tagName.toLowerCase()) {
+                    case 'ul':
                         content = Array.from(section.querySelectorAll('li')).map(li => `* ${li.textContent.trim()}`).join('\n').trim();
+                        break;
+                    case 'ol':
+                        content = Array.from(section.querySelectorAll('li')).map((li, j) => `${j + 1}. ${li.textContent.trim()}`).join('\n').trim();
                         break;
                     default:
                         content = (section.querySelector('span:has(strong)') ? new JSDOM(`<!DOCTYPE html>${sectionHTML.split(section.querySelector('span:has(strong)').outerHTML)[1]}`).window.document : section).body.textContent.trim();
