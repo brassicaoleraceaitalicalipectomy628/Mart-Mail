@@ -68,7 +68,7 @@ async function martMail() {
             const communicationSections = Array.from(communicationDOM.window.document.querySelector('.text-formatted').children).flatMap(communicationSection => Array.from(communicationSection.innerHTML.split('<br><br>')).map(sectionHTML => {
                 const section = new JSDOM(`<!DOCTYPE html>${sectionHTML}`).window.document;
                 var content = '';
-                switch (sectionHTML.split('<')[1].split('>')[0]) {
+                switch (sectionHTML.split('<')[1] ? sectionHTML.split('<')[1].split('>')[0] : false) {
                     case 'li':
                         content = Array.from(section.querySelectorAll('li')).map(li => `* ${li.textContent.trim()}`).join('\n').trim();
                         break;
