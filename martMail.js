@@ -2,6 +2,7 @@ require('node:process').loadEnvFile();
 const fs = require('fs').promises;
 const path = require('path');
 const { JSDOM } = require('jsdom');
+var package = require('./package.json');
 var martStats = require('./martStats.json');
 
 async function updateMartStats(field, value) {
@@ -144,7 +145,7 @@ async function martMail() {
                 thumbnail: { url: `${process.env.DOMAIN}${communicationImage}` },
                 url: `${process.env.DOMAIN}${communicationURL}`,
                 footer: {
-                    text: `Mart Mail - Official Marty Schmidt Fanclub • ${martStats.totalSent + 1} Mart Mails Sent`,
+                    text: `Mart Mail v${package.version} •${martStats.totalSent + 1} Mart Mails Sent`,
                     icon_url: 'https://faisaln.com/Mart-Mail.png',
                 },
                 timestamp: new Date(communicationDateTime).toISOString(),
