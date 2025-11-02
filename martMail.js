@@ -78,7 +78,7 @@ async function martMail() {
                         content = Array.from(section.querySelectorAll('li')).map(li => `* ${new JSDOM(`<!DOCTYPE html>${li.innerHTML}`).window.document.body.textContent.trim()}`).join('\n').trim();
                         break;
                     case 'ol':
-                        htmlContent = Array.from(section.querySelectorAll('li')).map(li => `${j + 1}. ${li.innerHTML.trim()}`).join('\n').trim();
+                        htmlContent = Array.from(section.querySelectorAll('li')).map((li, j) => `${j + 1}. ${li.innerHTML.trim()}`).join('\n').trim();
                         content = Array.from(section.querySelectorAll('li')).map((li, j) => `${j + 1}. ${new JSDOM(`<!DOCTYPE html>${li.innerHTML}`).window.document.body.textContent.trim()}`).join('\n').trim();
                         break;
                     default:
